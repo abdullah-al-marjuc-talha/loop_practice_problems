@@ -12,7 +12,12 @@
 // }
 
 // simple forloop
-for(var i=0; i<7; i++)
+// for(var i=0; i<7; i++)
+// {
+//     console.log(i);
+// }
+
+for(var i=0; i<7; i=i+2)
 {
     console.log(i);
 }
